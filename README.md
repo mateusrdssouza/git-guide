@@ -79,3 +79,8 @@ Renomear um arquivo
 ```sh
 git mv <arquivo> <novo arquivo>
 ```
+
+Desfaz as alterações em um arquivo
+```sh
+git checkout <arquivo>
+```
