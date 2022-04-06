@@ -84,3 +84,8 @@ Desfaz as alterações em um arquivo
 ```sh
 git checkout <arquivo>
 ```
+
+Resetar as mudanaças feitas
+```sh
+git reset --hard
+```
