@@ -69,3 +69,13 @@ Clona um repositório remoto para o local
 ```sh
 git clone https://github.com/<usuário>/<repositório>.git
 ```
+
+Acessar log de modificações
+```sh
+git log
+```
+
+Renomear um arquivo
+```sh
+git mv <arquivo> <novo arquivo>
+```
