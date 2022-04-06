@@ -87,5 +87,5 @@ git checkout <arquivo>
 
 Resetar as mudanaças feitas
 ```sh
-git reset --hard
+git reset --hard origin
 ```
