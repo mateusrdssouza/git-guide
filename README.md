@@ -89,3 +89,28 @@ Resetar as mudanaças feitas
 ```sh
 git reset --hard origin/main
 ```
+
+Listar todas as branches
+```sh
+git branch
+```
+
+Cria uma nova branch
+```sh
+git branch <nome>
+```
+
+Remove uma branch
+```sh
+git branch -d <nome>
+```
+
+Muda de branch
+```sh
+git checkout <nome>
+```
+
+Cria uma nova brancha e muda pra ela
+```sh
+git checkout -b <nome>
+```
