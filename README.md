@@ -161,7 +161,12 @@ Muda de tag
 git checkout <nome>
 ```
 
-Envia a tag para o repositório remoto
+Envia uma tag para o repositório remoto
 ```sh
 git push origin <nome>
+```
+
+Envia todas as tags para o repositório remoto
+```sh
+git push origin --tags
 ```
