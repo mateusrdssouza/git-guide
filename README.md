@@ -119,3 +119,34 @@ Une a branch atual à outra
 ```sh
 git merge -b <nome>
 ```
+
+Descarta as alterações e salva o código em outro lugar
+```sh
+git stash
+```
+
+Lista as stashes do Git
+```sh
+git stash list
+```
+
+Recupera as alterações
+```sh
+git stash apply <id>
+```
+
+Mostra as alterações da stash selecionada
+```sh
+git stash show -p <id>
+```
+
+Remove todas staches de uma branch
+
+```sh
+git stach clear
+```
+
+Remove uma stash específica
+```sh
+git stach drop <id>
+```
