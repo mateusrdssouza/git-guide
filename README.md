@@ -150,3 +150,18 @@ Remove uma stash específica
 ```sh
 git stach drop <id>
 ```
+
+Cria uma tag em uma branch
+```sh
+git tag -a <nome> -m "<msg>"
+```
+
+Muda de tag
+```sh
+git checkout <nome>
+```
+
+Envia a tag para o repositório remoto
+```sh
+git push origin <nome>
+```
