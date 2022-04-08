@@ -110,7 +110,12 @@ Muda de branch
 git checkout <nome>
 ```
 
-Cria uma nova brancha e muda pra ela
+Cria uma nova branch e muda pra ela
 ```sh
 git checkout -b <nome>
+```
+
+Une a branch atual à outra
+```sh
+git merge -b <nome>
 ```
