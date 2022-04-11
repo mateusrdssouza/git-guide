@@ -170,3 +170,28 @@ Envia todas as tags para o repositório remoto
 ```sh
 git push origin --tags
 ```
+
+Mapeia todas as branches remotas para o local
+```sh
+git fetch
+```
+
+Adicionar ou remover o repositório local para um remoto
+```sh
+git remote / git remote rm origin / git remote add origin <link>
+```
+
+Verifica os submódulos
+```sh
+git submodule
+```
+
+Adiciona uma dependência no projeto atual
+```sh
+git submodule add <repo>
+```
+
+Atualiza o submódulo
+```sh
+git push --recurse-submodules=on-demand
+```
