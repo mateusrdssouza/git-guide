@@ -235,3 +235,8 @@ Tranforma o repositório em um arquivo compactado (backup rápido)
 ```sh
 git archive --format zip --output master_files.zip
 ```
+
+Faz um rebase doss commits feitos em outra branch (private branch)
+```sh
+git rebase <branch 1> <branch 2> -i
+```
