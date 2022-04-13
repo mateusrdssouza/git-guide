@@ -210,3 +210,28 @@ Exibe log resumido do projeto
 ```sh
 git shortlog
 ```
+
+Limpa arquivos que não estão sendo trackeados
+```sh
+git clean
+```
+
+Remove arquivos desnecessários e otimiza o repositório
+```sh
+git gc
+```
+
+Verifica a integridade dos arquivos e sua conectividade
+```sh
+git fsck
+```
+
+Mapeia todos seus passos no repositório (espiração padrão de 30 dias)
+```sh
+git reflog
+```
+
+Tranforma o repositório em um arquivo compactado (backup rápido)
+```sh
+git archive --format zip --output master_files.zip
+```
