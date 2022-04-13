@@ -195,3 +195,18 @@ Atualiza o submódulo
 ```sh
 git push --recurse-submodules=on-demand
 ```
+
+Exibe informações da branch/tag
+```sh
+git show / git show <tag>
+```
+
+Exibe as diferenças entre branches / arquivos
+```sh
+git diff / git diff <arquivo 1> <arquivo 2>
+```
+
+Exibe log resumido do projeto
+```sh
+git shortlog
+```
